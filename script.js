@@ -173,3 +173,57 @@
 // }
 //  console.log(R(inp));
 
+// to print a string with title caps
+
+// 1.functions
+
+// let inp="the alone lion is difficult to defeat"
+
+// function str(inp){
+// inp=inp.toLowerCase().split(" ")
+// for(let i=0;i<inp.length;i++){
+// inp[i]=(inp[i].charAt(0).toUpperCase()+inp[i].slice(1));
+// }
+// return inp.join(" ")
+// }
+// console.log(str(inp));
+
+// 2.IIFE:
+
+// let inp="the alone lion is difficult to defeat";
+
+// (function str(inp){
+// inp=inp.toLowerCase().split(" ")
+// for(let i=0;i<inp.length;i++){
+// inp[i]=(inp[i].charAt(0).toUpperCase()+inp[i].slice(1));
+// }
+// console.log( inp.join(" "))
+// })
+// ((inp));
+
+// 3.Anonyomus function:
+
+// let inp="the alone lion is difficult to defeat";
+
+// const a= function (inp){
+// inp=inp.toLowerCase().split(" ")
+// for(let i=0;i<inp.length;i++){
+// inp[i]=(inp[i].charAt(0).toUpperCase()+inp[i].slice(1));
+// }
+// return inp.join(" ");
+// }
+// console.log(a(inp));
+
+// 4.using Arrow function:
+
+
+// let inp="the alone lion is difficult to defeat";
+
+// const a= (inp)=>{
+// inp=inp.toLowerCase().split(" ")
+// for(let i=0;i<inp.length;i++){
+// inp[i]=(inp[i].charAt(0).toUpperCase()+inp[i].slice(1));
+// }
+// return inp.join(" ");
+// }
+// console.log(a(inp));
